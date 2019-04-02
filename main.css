@@ -2,3 +2,22 @@ nav {
     display: inline;
     /* font-family: 'Courier New', Courier, monospace */
 }
+
+.footer{
+    /* make it go to the bottom of the site */
+   }
+   /* make bar around header */
+   .cats{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/background.png);
+   }
+   
+   h1{
+       font-size: 4em;
+   }
+
+   h2{
+    font-size: 3em;
+   }

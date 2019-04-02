@@ -6,6 +6,12 @@
   margin: 0 auto;
   height: 100%;
 }
+
+.photo{
+  position: relative;
+ width: 210px;
+ height: 210px;
+}
  
   img {
     margin: 0;
@@ -28,10 +34,3 @@
   img:nth-child(3) {
     grid-area: 3 / 3 / 7 / 5;
   }
-.footer{
- /* make it go to the bottom of the site */
-}
-/* make bar around header */
-.cats{
-  background-image: url(/images/background\ .jpg);
-}
