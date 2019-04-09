@@ -18,6 +18,16 @@ nav {
        font-size: 4em;
    }
 
+   h1:hover{
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+   }
+
    h2{
     font-size: 3em;
    }
+
+   h3{
+       color: white;
+   }
+   
