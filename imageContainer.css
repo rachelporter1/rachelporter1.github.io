@@ -32,15 +32,33 @@
 }
 
 .navbarcolor:hover{
-  background-color: blueviolet;
-
+  color: blueviolet;
 }
+
+.backgroundcolor:hover{
+  background-color: blueviolet;
+}
+
+.backgroundcolor{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  object-fit: cover;
+}
+
 
 .logo{
 width: 20px;
 height: 20px;
 }
 
+.logo:hover
+{
+  background-color: blueviolet;
+}
 .photo{
 position: relative;
  width: 210px;
