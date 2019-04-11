@@ -59,6 +59,7 @@ height: 20px;
 {
   background-color: blueviolet;
 }
+
 .photo{
 position: relative;
  width: 210px;
@@ -106,6 +107,7 @@ img {
     text-decoration: none;
     overflow: hidden;
 }
+
 .footer-container .wrapper {
     width: 80%;
     max-width: none;
