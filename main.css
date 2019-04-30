@@ -1,3 +1,4 @@
+/* navagation styling */
 nav {
     display: inline;
 }
@@ -18,11 +19,6 @@ a:active {
     overflow: hidden;
     background-color: black;
   }
-
-.button{
-
-  }
-  
 
 .box{
     text-align: center;
@@ -89,16 +85,19 @@ a:active {
     height: 80px;        /* if you want it to take the full height of the bar */
     line-height: 80px;    /* if you want it vertically middle of the navbar */
   }
-
-   .fancy{
+ 
+/* background */
+  .fancy{
     background-image: url(/images/option.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
    }
+   /* Text */
    
    h1{
        font-size: 4em;
+       text-align: center;
        
    }
 
@@ -107,11 +106,12 @@ a:active {
     -webkit-animation: bounce 2s infinite;
    }
 
-   h2{
-    font-size: 3em;
+  p{
+    font-size: 2em;
+   
    }
 
    h3{
        color: white;
    }
-   
+  
