@@ -2,9 +2,25 @@ nav {
     display: inline;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 .bar{
     overflow: hidden;
     background-color: black;
+  }
+
+.button{
+
   }
   
 
@@ -74,15 +90,8 @@ nav {
     line-height: 80px;    /* if you want it vertically middle of the navbar */
   }
 
-   .cats{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(/images/background.png);
-   }
-
    .fancy{
-    background-image: url(/images/workin.svg);
+    background-image: url(/images/option.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -90,6 +99,7 @@ nav {
    
    h1{
        font-size: 4em;
+       
    }
 
    h1:hover{
