@@ -20,12 +20,12 @@ position: relative;
  height: 210px;
 }
 
-.photo:hover {
+/* .photo:hover {
   filter: none;
   z-index: 3;
   filter: grayscale(100);
   transition: filter .5s ease-in-out; 
-}
+} */
  
 img {
     margin: 0;

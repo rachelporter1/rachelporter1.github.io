@@ -1,0 +1,103 @@
+svg{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 50%;
+    height: 30%;
+}
+svg:hover{
+    /* fill: blue; */
+    animation: move 5s linear infinite;
+    -webkit-animation: move 5s linear infinite;
+}
+svg{
+    /* fill: blue; */
+    animation: color 5s linear infinite;
+    -webkit-animation: color 5s linear infinite; 
+}
+svg{
+animation: rotate 5s linear infinite;
+-webkit-animation: rotate 5s linear infinite; 
+}
+/* h1{
+    animation: color 5s linear infinite;
+    -webkit-animation: color 5s linear infinite; 
+} */
+/* .color{
+    fill: blue
+} */
+@keyframes rotate{
+     0%{
+        transform: rotate(0deg);
+    } 
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes move{
+    0%{
+        top: 30%;
+    }
+    50%{
+        top: 70%;
+    }
+    }
+@keyframes color{
+     50%{
+        fill:red;
+     }
+    100%{
+        fill: orange;
+    }
+ }
+/* @keyframes color{
+    from{
+        fill: red;
+    }
+    to{
+        fill: aliceblue
+    }
+} */
+/* @keyframes color{
+0%{
+    fill:rebeccapurple;
+}
+20%{
+    fill: red;
+}
+40%{
+    fill: orange;
+}
+60%{
+    fill: aqua;
+}
+70%{
+    fill: bisque;
+}
+80%{
+    fill: cadetblue
+}
+} */
+/* @keyframes color{
+    0%{
+        fill:red;
+    }
+    10%{
+        fill: orange;
+    }
+    20%{
+        fill: yellow;
+    }
+    30%{
+        fill: green;
+    }
+    40%{
+        fill: blue;
+    }
+    50%{
+        fill: purple;
+    }
+    
+} */
+
+

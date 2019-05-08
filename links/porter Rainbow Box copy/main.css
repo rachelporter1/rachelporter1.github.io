@@ -1,0 +1,42 @@
+.table{
+    width: 50%; 
+   text-align: "center";
+  border: 0px;
+}
+td{
+    padding: 3rem ;
+    
+}
+
+.purple{
+    background-color: purple;
+}
+.indigo{
+    background-color: indigo;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+}
+table{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: xx-large;
+    
+}
+body{
+    background-color: grey; 
+    text-align: center;
+    margin-left: 30%;
+}
